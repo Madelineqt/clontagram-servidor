@@ -66,7 +66,7 @@ let server;
 
 if (process.env.NODE_ENV === 'development') {
   server = app.listen(process.env.port, () => {
-    logger.info(`Escuchando en el puerto ${process.env.port}.`);
+    logger.info(`Escuchando en el puerto ${process.env.PORT}.`);
   });
 } else {
   app.listen();
