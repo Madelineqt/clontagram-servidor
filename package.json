@@ -6,8 +6,8 @@
   "author": "Ricardo y Daniel Macario",
   "license": "ISC",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
     "seed-db": "node scripts/seedDb.js"
   },
   "dependencies": {
