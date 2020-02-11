@@ -25,8 +25,6 @@ mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
-  user: "uwu",
-  pass: "uwu"
 });
 mongoose.connection.on('error', () => {
   logger.error('Falló la conexión a mongodb');
