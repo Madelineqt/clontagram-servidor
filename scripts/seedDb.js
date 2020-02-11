@@ -2,7 +2,7 @@ const { Seeder } = require('mongo-seeding');
 const path = require('path');
 
 const config = {
-  database: '9a.mongo.evennode.com:27017/clontagram',
+  database: 'mongodb://clontagram-shard-00-02-kpiut.mongodb.net:27017/clontagram',
   dropDatabase: true
 };
 

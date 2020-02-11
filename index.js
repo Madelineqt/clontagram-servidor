@@ -24,7 +24,9 @@ mongoose.connect(process.env.MONGODB_URI, {
   // Estos settings apagan warnings de mongoose
   useNewUrlParser: true,
   useFindAndModify: false,
-  useCreateIndex: true
+  useCreateIndex: true,
+  user: "uwu",
+  pass: "uwu"
 });
 mongoose.connection.on('error', () => {
   logger.error('Falló la conexión a mongodb');
