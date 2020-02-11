@@ -24,7 +24,7 @@
     "joi": "^13.2.0",
     "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.5.13",
-    "morgan": "^1.9.0",
+    "morgan": "^1.9.1",
     "passport": "^0.4.0",
     "passport-http": "^0.3.0",
     "passport-jwt": "^4.0.0",
