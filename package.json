@@ -5,6 +5,10 @@
   "private": true,
   "author": "Ricardo y Daniel Macario",
   "license": "ISC",
+  "engines": {
+    "node": "10.16.3"
+  },
+
   "scripts": {
     "start": "nodemon index.js",
     "dev": "nodemon index.js",
