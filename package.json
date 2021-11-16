@@ -14,7 +14,7 @@
     "seed-db": "node scripts/seedDb.js"
   },
   "dependencies": {
-    "aws-sdk": "^2.425.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^2.0.1",
     "body-parser": "^1.18.2",
     "cors": "^2.8.5",
